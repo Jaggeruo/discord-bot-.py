@@ -9,7 +9,7 @@ with open("data.json", "r") as data_file:
 
 
 client = commands.Bot(
-    command_prefix=prefix, status="online", activity=discord.Game(name="test")
+    command_prefix=prefix, status="online", activity=discord.Game(name="h.help")
 )
 
 
